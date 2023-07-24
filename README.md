@@ -10,16 +10,16 @@ Output_data folder:
 Holds any information that needs to be saved such as figures and the data cities.csv that is pulled from the internet using Weather API.  
 
 WeatherPy folder:
-Stores the Jupyter notebook file, along with two other Python files.  linearregression.py, and api_keys.py 
+Stores the Jupyter notebook file, along with two other Python files.  linearregression.py.
+
+WeatherPy:
+This first part of my project uses the Weather API to locate randomly cities all over the world.  Then further analysis of the data split between the northern and Southern Hemispheres.  
 
 linearregression.py:
 This function utilizes five inputs, two of these are different data sets that need to be compared (x, y).  Three other inputs that will label the x_axis, y_axis, and the title of the plot.  Once the functions five inputs are satisfied it will compute the linear regression line utilizing scipy linregress function and matplotlib.pyplot for plotting both the scatter graph and the linear regression line.
 
-api_keys.py
-This holds my API keys for both Weather API and Geoapify
-
 VactionPy:
-Holds my second part of my project VacationPy Jupyter notebook, as well as a duplicate file of api_keys.py.
+Holds my second part of my project VacationPy Jupyter notebook.  This takes the cities found in the WeatherPy and then filters them by different criteria I think would make for a lovely vacation spot.  Then finds the closest hotels.
 
 
 
