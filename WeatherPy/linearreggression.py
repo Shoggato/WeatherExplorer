@@ -14,7 +14,7 @@ def linreg(x, y, x_label, y_label, title):
     plt.scatter(x,y)
     
     #Plot the line equation
-    plt.annotate(line_eq, fontsize=15, (0,10), color="red")
+    plt.annotate(line_eq, (0,10), fontsize=15, color="red")
     
     #Plot the best fit line
     plt.plot(x,best_fit,"r-")
