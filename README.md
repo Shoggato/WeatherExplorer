@@ -1,6 +1,17 @@
 # World Weather API calls and Vacation Ideas
 
-##Introduction:
+## Table of Contents
+
+- [Background](#background)
+- [About](#about)
+- [Contributing](#contributing)
+
+# Background
+Data's true power is its ability to definitively answer questions. So, let's take what you've learned about Python requests, APIs, and JSON traversals to answer a fundamental question: "What is the weather like as we approach the equator?"
+
+Now, we know what you may be thinking: “That’s obvious. It gets hotter.” But, if pressed for more information, how would you prove that?
+
+# About
 
 Using two API's Weather API, and Geoapify API.  I pull random city data points from all over the globe and analze these points based on different criteria (Temperature, cloudiness, humidity, wind speed) and how they compare between the two hemispheres.  The second part of this project, was taking the data points, filtering them based on what I think would be nice vacation weather.  Then using Geoapify API look for the closest hotels near these cities.  Maybe I will find my next vacation destination?
 
@@ -21,5 +32,6 @@ This function utilizes five inputs, two of these are different data sets that ne
 VactionPy:
 Holds my second part of my project VacationPy Jupyter notebook.  This takes the cities found in the WeatherPy and then filters them by different criteria I think would make for a lovely vacation spot.  Then finds the closest hotels.
 
-
+# Contributing
+Erika Walker
 
