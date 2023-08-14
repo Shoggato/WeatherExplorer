@@ -19,6 +19,15 @@ Within the python-api-challenge github, you will find three folders.  Output_dat
 
 Output_data folder: 
 Holds any information that needs to be saved such as figures and the data cities.csv that is pulled from the internet using Weather API.  
+figures that were saved:
+
+![image](<output_data/Fig1.png>)
+
+![image](<output_data/Fig2.png>)
+
+![image](<output_data/Fig3.png>)
+
+![image](<output_data/Fig4.png>)
 
 WeatherPy folder:
 Stores the Jupyter notebook file, along with two other Python files.  linearregression.py.
